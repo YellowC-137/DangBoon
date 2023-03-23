@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">DangBoon</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_dashboard">게시판</string>
+    <string name="title_map">지도</string>
+    <string name="title_chat">채팅방</string>
+    <string name="title_setting">설정</string>
 </resources>

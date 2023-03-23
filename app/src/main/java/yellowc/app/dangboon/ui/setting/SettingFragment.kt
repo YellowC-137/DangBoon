@@ -1,4 +1,4 @@
-package yellowc.app.dangboon.ui.home
+package yellowc.app.dangboon.ui.setting
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import yellowc.app.dangboon.databinding.FragmentHomeBinding
 
-class HomeFragment : Fragment() {
+class SettingFragment : Fragment() {
 
     private var _binding: FragmentHomeBinding? = null
 
@@ -23,7 +23,7 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
+            ViewModelProvider(this).get(SettingViewModel::class.java)
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
